@@ -1,0 +1,554 @@
+/* ================================
+    CSS STYLES FOR THE PORTAL STARTER KIT
+    v1.0, 10/2002
+   ================================
+*/   
+.box1 {
+	/*padding: 20px;*/
+	background: url(images/img05.gif) repeat;
+}
+
+
+.HeaderGrid
+{
+    color:White;
+    text-align:center;
+    background-color:#008800;
+    HorizontalAlign:"Center";
+    BackColor:"#008800";
+    ForeColor:"White";
+}
+
+.EmptyRow
+{
+    color:DarkGreen;
+    border-style:none;
+    background-color:#FFFFD7;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 12px;
+    BackColor:#FFFFD7;
+    ForeColor:DarkGreen;
+    BorderStyle:None;
+    
+}
+
+
+.gridview
+
+{
+    	background: url(images/mt.gif) repeat;
+    	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 12px;
+        margin-bottom: 0px;
+    
+ }
+
+.modalProgressGreyBackground 
+{
+    background:#CCCCCC;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+}
+
+
+
+.modalPopup
+{
+    text-align:center;
+    padding-top: 30px; 
+    border-style:solid; 
+    border-width:1px; 
+    background-color:White; 
+    width:300px; 
+    height:100px;
+}
+/* PAGE BACKGROUND */
+/* background color for the header at the top of the page  */
+.HeadBg {
+    /*background-color: #2273ab;*/
+    
+}
+
+.InactiveTabNew
+{
+
+}
+/* background color for the content part of the pages */
+Body
+{
+    background-color: white;
+}
+
+
+/* PAGE BANNER */
+/* NOTE: Site Title, Site Links and Tabs are rendered by MobilePortalBanner.ascx
+/* style for the text of the site title */
+.SiteTitle {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b964f;
+}
+
+/* background/border colors for the selected tab */
+.TabBg {
+
+    background-image:url(images/tab_live.png);
+    background-position:center top;
+    background-repeat:repeat-x;
+    
+}
+
+/* background/border colors for the unselected tabs */
+.OtherTabsBg {
+    /*background-color: gray;
+    border-color: black;*/
+    background-image:url(images/projecttab_bar.png);
+    background-position:center top;
+    background-repeat:repeat-x;
+}
+
+/* text style for the selected tab */
+.SelectedTab {
+   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 13px;
+ color:white;
+    font-weight: bold;
+    
+    
+
+
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 13px;
+    color:gray;
+    text-decoration:none;
+    font-weight: bold
+}
+
+/* hyperlink styles of the unselected tabs */
+A.OtherTabs:link    {
+    text-decoration:    none;
+    color: #1b964f;
+}
+
+A.OtherTabs:visited {
+    text-decoration:    none;
+    color: #1b9;
+}
+
+A.OtherTabs:active  {
+    text-decoration:    none;
+    color: #1b964f;
+}
+
+A.OtherTabs:hover   {
+    text-decoration:    underline;
+    color: #1b9;
+}
+    
+/* text style for the site links (at extreme top-right of header) */
+.SiteLink {
+    font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: bold
+}   
+
+/* hyperlink style for the site links */
+A.SiteLink:link {
+    text-decoration:    none;
+    color:white;
+}
+
+A.SiteLink:visited  {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.SiteLink:active   {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.SiteLink:hover    {
+    text-decoration:    underline;
+    color:white;
+}
+
+/* style for separator between site links */
+.Accent
+{
+    color: #fed03c;
+    font-weight:    bold;
+}
+
+
+
+/* MODULE-SPECIFIC */
+/* text style for reading messages in Discussion */    
+.Message    {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-size: 11px;
+    background-color: #eeeeee
+}   
+
+/* style of item titles by Announcements and events */
+.ItemTitle    {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #1b964f;
+}
+
+
+
+/* GENERAL */
+/* style for module titles */
+.Head   {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #666644;
+    width: 66%;
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead    {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #1b964f;
+    text-align: center;
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: black;
+}
+
+/* text style used for most text rendered by modules */
+.Normal
+{
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 12px;
+    margin-bottom: 0px;
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox
+{
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.NormalRed
+{
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: red
+}
+
+.NormalBold
+{
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: bold
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton     {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+    
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+    text-decoration:    underline;
+    color: #1b964f;
+}
+
+A.CommandButton:visited  {
+    text-decoration:    underline;
+    color: #1b9;
+}
+
+A.CommandButton:active   {
+    text-decoration:    underline;
+    color: #1b964f;
+}
+
+A.CommandButton:hover    {
+    color: red;
+}
+    
+
+
+
+/* GENERIC */
+H1  {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #005129;
+}
+
+H2  {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #005129;
+}
+
+H3  {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  12px;
+    font-weight:    normal;
+    color: #1b964f;
+}
+
+H4  {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  12px;
+    font-weight:    normal;
+    color: #1b964f;
+}
+
+H5, DT  {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #1b964f;
+}
+
+H6  {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #1b964f;
+}
+
+TFOOT, THEAD    {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  12px;
+    color: #1b964f;
+}
+
+TH  {
+    vertical-align: baseline;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size:  12px;
+    font-weight:    bold;
+    color: #1b964f;
+}
+
+A:link  {
+    text-decoration:    none;
+    color: #1b964f;
+}
+
+A:visited   {
+    text-decoration:    none;
+    color: #1b9;
+}
+
+A:active    {
+    text-decoration:    none;
+    color: #1b964f;
+}
+
+A:hover {
+    color:  red;
+	text-decoration: underline;
+}
+
+SMALL   {
+    font-size:  8px;
+}
+
+BIG {
+    font-size:  14px;
+}
+
+BLOCKQUOTE, PRE {
+    font-family:    Lucida Console, monospace;
+}
+
+
+UL LI   {
+    list-style-type:    square ;
+}
+
+UL LI LI    {
+    list-style-type:    disc;
+}
+
+UL LI LI LI {
+    list-style-type:    circle;
+}
+
+OL LI   {
+    list-style-type:    decimal;
+}
+
+OL OL LI    {
+    list-style-type:    lower-alpha;
+}
+
+OL OL OL LI {
+    list-style-type:    lower-roman;
+}
+
+HR {
+    color: gray;
+    height:1pt;
+    text-align:left;
+    margin-bottom: 6px;
+}
+
+
+
+.Item
+{
+    width: 300px;
+        
+}
+
+.Titulo
+{
+    width: 300px;
+        
+}
+.TextBox
+{
+        width: 150px;
+        height: 15px;
+    
+}
+
+
+.stepBreak
+{
+    width: 3px;
+    background-color: Transparent;
+}
+
+
+.texto
+{
+    
+    font-family: Arial;
+    color: #333333;
+    font-size: 11px;
+    height: 20px;
+
+}
+
+.wizardTitle
+{
+    font-family: Arial;
+    font-size:medium;
+    font-weight: bold;
+    color: #333333;
+    vertical-align: middle;
+
+    }
+    
+ /*Para Cuadricula*/
+
+.mGrid2
+{
+    padding: 4px 2px; 
+    color: #fff; 
+    background: #424242 url(images/grd_head.png) repeat-x top; 
+    border-left: solid 1px #525252; 
+    font-size: 0.9em; 
+    
+    }
+
+.mGrid { 
+    width: 100%; 
+    background-color: #fff; 
+    margin: 5px 0 10px 0; 
+    border: solid 1px #525252; 
+    border-collapse:collapse; 
+}
+.mGrid td { 
+    padding: 2px; 
+    border: solid 1px #c1c1c1; 
+    color: #717171; 
+}
+.mGrid th { 
+    padding: 4px 2px; 
+    color: #fff; 
+    background: #424242 url(images/grd_head.png) repeat-x top; 
+    border-left: solid 1px #525252; 
+    font-size: 0.9em; 
+}
+.mGrid .alt { background: #fcfcfc url(images/grd_alt.png) repeat-x top; }
+.mGrid .pgr { background: #424242 url(images/grd_pgr.png) repeat-x top; }
+.mGrid .pgr table { margin: 5px 0; }
+.mGrid .pgr td { 
+    border-width: 0; 
+    padding: 0 6px; 
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; 
+ }   
+.mGrid .pgr a { color: #666; text-decoration: none; }
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+
+/*************************************************************************/
+.popup{
+    border: 1px solid #6b6a63;
+    width: 60%;
+    border-radius :7px;
+    margin : auto;
+    padding : 20%;
+    position: fixed;
+    background: white;
+    top:35%;
+    left:19%;
+    margin-left: -20px;
+    margin-top: -25px;  
+}
+/*************************************************************************/
+.modalLTM {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 50%;
+    height: 50%;
+    padding: 16px;
+    background: #ffffff;
+    color: #333;
+    z-index:1002;
+    overflow: auto;
+    /*opacity:.95;
+    -moz-opacity:.15;
+    filter: alpha(opacity=15);*/
+    -moz-box-shadow: 100px 100px 100px #080908;
+    -webkit-box-shadow: 30px 30px 30px #080908;
+    box-shadow: 0px 0px 130px #080908; 
+    border-radius:10px; 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari y Chrome */ 
+}

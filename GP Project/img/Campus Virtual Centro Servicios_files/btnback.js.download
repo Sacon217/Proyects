@@ -1,0 +1,16 @@
+﻿/*===================================================================    */
+/*    Esta funcion se agrego para inhabilitar el boton                   */
+/*    atras del navegador y evitar que estando en la matricula           */
+/*    se devuelvan al login. ya que quedan cargados los parametros.      */
+/*    Percy F.21/05/2015
+/*=======================================================================*/
+
+function nobackbutton() {
+    2
+    window.location.hash = "no-back-button";
+    3
+    window.location.hash = "Again-No-back-button" //chrome
+    4
+    window.onhashchange = function () { window.location.hash = "no-back-button"; }
+    5
+}

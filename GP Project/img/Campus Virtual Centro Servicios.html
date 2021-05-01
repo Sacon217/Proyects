@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://central.ulatina.ac.cr/FormularioPago.aspx#no-back-button -->
+<html lang="en" class=" js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Campus Virtual Centro Servicios_files/btnback.js.download"></script>
+
+    <script src="./Campus Virtual Centro Servicios_files/jquery-1.11.2.min.js.download"></script>
+    <script src="./Campus Virtual Centro Servicios_files/jquery.msg.min.js.download"></script>
+    <script src="./Campus Virtual Centro Servicios_files/jquery.center.min.js.download"></script>
+    <script src="./Campus Virtual Centro Servicios_files/jquery.floatobject-1.0.js.download"></script>
+    <script src="./Campus Virtual Centro Servicios_files/tooltips.js.download"></script>
+    <title>
+	Campus Virtual Centro Servicios
+</title><script src="./Campus Virtual Centro Servicios_files/modernizr-2.5.3.js.download"></script>
+<link href="./Campus Virtual Centro Servicios_files/ASPNETPortal.css" rel="stylesheet">
+<link href="./Campus Virtual Centro Servicios_files/StyleCSS.css" rel="stylesheet">
+<link href="./Campus Virtual Centro Servicios_files/menu.css" rel="stylesheet">
+<link href="./Campus Virtual Centro Servicios_files/jquery.msg.css" rel="stylesheet">
+ 
+     
+    <script type="text/javascript">
+
+        function cargando() {
+            var flagger = $('#Head1');
+            flagger.attr('data-loading', 1);
+            setTimeout(function () {
+                if (parseInt(flagger.attr('data-loading'))) {
+                    $.msg();
+                }
+            }, 500);
+
+            /*
+            El mae espera medio segundo para mostrar el loading, si la consulta dura mas de medio segundo la muestra si no no.
+            */
+        }
+
+        function CerrarCargando(mensaje) {
+            $('#Head1').attr('data-loading', 0);
+            $.msg('unblock');
+            $('#jquery-msg-overlay').remove();
+            
+            if (mensaje === 0 || mensaje === 1 || mensaje === 2 || mensaje === 3 || mensaje === 4) {
+                cambiarBotonesActivos(mensaje);
+            } else {
+                if (mensaje) {
+                    alert(mensaje);
+                }
+            }
+        }
+
+        function cambiarBotonesActivos(opcion) {
+            var resultadoMensaje = '';
+            opcion = parseInt(opcion);
+
+            var $this = $('.gridOpcionView');
+            $this.eq(opcion).addClass('opcionActiva');
+            $this.siblings().removeClass('opcionActiva');
+
+            if (opcion === 0) {
+                resultadoMensaje = 'No se encontraron materias.'
+            } else if (opcion === 1) {
+                resultadoMensaje = 'Actualmente no hay materias prematriculadas.'
+            } else if (opcion === 2) {
+                resultadoMensaje = 'Actualmente no hay materias disponibles para matricular.'
+            } else {
+                resultadoMensaje = 'No se encontraron materias.'
+            }
+
+            $('#mensajeContexto').text(resultadoMensaje)
+        }
+
+
+   
+
+    </script>
+
+    </head>
+<body onload="nobackbutton();">
+    <form method="post" action="https://central.ulatina.ac.cr/FormularioPago.aspx" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjYwMjExMTMxD2QWAmYPDxYEHg9fX0FudGlYc3JmVG9rZW4FIDFlNjhmOWU5NDQ4NzQ1NDhiY2Q1YzUyYjkyYThhNzAwHhJfX0FudGlYc3JmVXNlck5hbWVlZBYCAgMPZBYGAgEPFgIeCWlubmVyaHRtbAUTc2VyZ2lvIGFyY2UgYWNvbiB8IGQCAw8WAh8CBR9VTklWRVJTSURBRCBMQVRJTkEgU2FuIFBlZHJvIHwgZAIFD2QWAgIBDxYCHwIF8wQ8aWZyYW1lIHNjcm9sbGluZz0nYXV0bycgc3JjPSdodHRwczovL2NlbnRyYWwudWxhdGluYS5hYy5jci9QYWdvc0xhdGluYS9ob21lL0Zvcm1BdXRvcml6YWNpb25CQUM/ZGIxPWV5SkRZWEp1WlhRaU9pSXlNREU0TURFeE1qZ3hOU0lzSWxObFpHVWlPaUpUUVU0Z1VFVkVVazhpTENKRmJXRnBiQ0k2SW5ObGNtZHBieTVoY21ObE1VQjFiR0YwYVc1aExtNWxkQ0lzSWtOdlpHbG5iMU5wYzNSbGJXRWlPaUpRWVdkaGNtVnpJaXdpVFc5dWRHOGlPaUkyTURnNU5UVXVNamNpTENKT2IyMWljbVVpT2lKVFJWSkhTVThpTENKQmNHVnNiR2xrYnlJNklrRlNRMFVnUVVOUFRpSXNJa2xrVTJselVHRm5ieUk2SWlJc0lrTnZibU5sY0hSdlVHRm5ieUk2SWpjMU5EYzJNRFVnTFNCUVZVTWlMQ0pPZFcxbGNtOUViMk5RWVdkaGNtVWlPaUkzTlRRM05qQTFJaXdpVkdsd2IwUnZZMUJoWjJGeVpTSTZJbEJWUXlJc0lrTmxaSFZzWVNJNklqRXhOemd6TURJMk5pSXNJa052WkdsbmIwTnZiWEJoYm1saElqb2lNU0o5JmRiMj1abUZzYzJVPSZkYjM9ZEhKMVpRPT0mZGI0PUlqWXdPQzQ1TlRVc01qY2kmZGI1PWJuVnNiQT09JyBmcmFtZWJvcmRlcj0nMCcgc3R5bGU9J3dpZHRoOiAxMDAlOyBoZWlnaHQ6IDU1OHB4Jz48L2lmcmFtZT5kZDglo3Bi9ujL3olZ18Ig/XvEhIvS6dU2kfcKzeWWIrkD">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="58E68376">
+</div>
+        <div class="contenedorPagina">
+                                  
+            <table id="tableUsuario">
+                <tbody><tr>
+                    <td>
+                        <div id="lblUsuario" style="text-transform:capitalize;">sergio arce acon | </div> 
+                    </td>
+                    <td>
+                         <div id="lblSede">UNIVERSIDAD LATINA San Pedro | </div> 
+                    </td>
+                     
+                    <td>
+                          <a id="linkCampus" href="http://campus.ulatina.ac.cr/">Volver al Campus Virtual</a>
+                    </td>                
+                    </tr>
+                </tbody></table>
+
+            <div id="stylefour">  
+                    <a id="btnMatricula" class="masterLink" href="https://central.ulatina.ac.cr/FormularioPago.aspx"><nav>Matrícula</nav></a>
+                    <a id="btnCampoClinico" class="masterLink" href="https://central.ulatina.ac.cr/FormularioPago.aspx"><nav>Campos Clínicos</nav></a>
+                    <a id="btnPagares" class="masterLink" href="https://central.ulatina.ac.cr/FormularioPago.aspx"><nav>Pagos en Línea</nav></a>          
+            </div>  
+
+            
+    <script src="./Campus Virtual Centro Servicios_files/jquery-3.2.1.min.js.download"></script>
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .loader {
+          border: 10px solid #f3f3f3;
+          border-radius: 50%;
+          border-top: 10px solid gray;
+          width: 100px;
+          height: 100px;
+          -webkit-animation: spin 1.5s linear infinite; /* Safari */
+          animation: spin 1.5s linear infinite;
+        }
+
+        /* Safari */
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+    </style>
+    <div class="loader hide" style="margin-left: 45%;"></div>
+    <div id="FeaturedContent_FormularioBAC" class=""><iframe scrolling="auto" src="./Campus Virtual Centro Servicios_files/FormAutorizacionBAC.html" frameborder="0" style="width: 100%; height: 558px"></iframe></div>
+
+    <script>
+        // Evita regresar o refrescar la pagina
+        window.location.hash = "no-back-button";
+        window.location.hash = "Again-No-back-button";//esta linea es necesaria para chrome
+        window.onhashchange = function () { window.location.hash = "no-back-button"; }
+        history.pushState(null, null, location.href);
+        window.onpopstate = function () {
+            history.go(1);
+        };
+        // Controla el spinner
+        $('iframe').on("load", function () {
+            $('.hide').removeClass('hide');
+            $('.loader').addClass('hide');
+        });
+    </script>
+
+            
+
+
+        </div>
+    </form>
+
+
+</body></html>

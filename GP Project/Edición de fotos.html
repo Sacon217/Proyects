@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Gerencia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100;200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/output-onlinepngtools.png" alt="Arte Cempi LOGO" class="nav-brand">
+            <ul class= "nav-menu">
+                <li>
+                    <a href="Pagina Principal.html">¿Quiénes somos?</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+                <li>
+                    <a href="Edición de fotos.html">Edición de Fotos</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <div>
+
+            <div class="contenedorCanvas">
+                <canvas id="canvas" width="800" height="600"></canvas>
+            </div>
+            
+
+            <hr>
+
+            <div class="opcionesFoto">
+                <input type="file" id="file">
+                <button id="select">Selection mode</button>
+                <button id="draw">Drawing mode</button>
+                <button id="delete">Delete selected object(s)</button>
+            </div>
+            
+            <hr>
+
+            <div class="library">
+                <img src="img/deleteIcon.png" >
+                <img src="img/cloneIcon.png" alt="">
+                <img src="img/4.png" alt="">
+            </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://rawgit.com/kangax/fabric.js/master/dist/fabric.min.js"></script>
+        <script src="editPhoto.js"></script>
+</body>
+</html>
