@@ -1,0 +1,92 @@
+/* ^^^^^^^^ BELOW IS THE CODE FOR THE MENU ^^^^^^^^^^ */
+.auto-style1{
+	width:auto !important;
+	padding-top:7px;
+}
+.auto-style2{
+padding-top:7px;
+}
+#stylefour {
+    height: 63px;
+    width:100%;
+    font-weight: bold;
+    border-top: 1px solid #666;
+    margin-top:-10px;
+    margin-bottom:30px;
+   
+}
+#stylefour a {
+    outline: none;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding: 11px 20px 0 20px;
+    height: 23px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+
+#tableUsuario{
+    height:30px;
+    display:block;
+
+}
+
+
+    #stylefour .masterLink {
+        width:20%;
+        height:34px;
+        padding:0;
+        margin:0;
+        position:relative;
+        float: left;
+        color: white;
+        top: 5px;
+        left: 0px;
+		box-shadow:1px 1px 1px rgba(0,0,0,.3)inset;
+}
+        
+    #stylefour .masterLink:hover {
+        height:30px;
+        color:white;
+    }
+
+        #stylefour .masterLink nav {
+            position:absolute;
+            top:163%;
+            left:50%;
+            font-size:1.8em;
+            width:100%;
+            height:22px;         
+            margin-left:-50%;
+            text-align:center;
+            text-transform:uppercase;
+        }
+
+
+#btnMatricula {
+    background-color:#bcc9c1;
+}
+
+#btnPagares {
+    background-color:#bcc9c1;
+}
+#btnCampoClinico {
+    background-color:#7d9286;
+}
+
+#adornoMenu {
+    background-color: rgba(0,0,0,0.1);
+    width:100%;
+    position:absolute;
+    bottom:0;
+    height:10px;
+}
+
+
+
+
+
+/* ^^^^^^^^ ABOVE IS THE CODE FOR THE MENU ^^^^^^^^^^ */

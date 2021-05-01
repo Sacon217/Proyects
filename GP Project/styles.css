@@ -1,0 +1,225 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    color: white;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Trispace', sans-serif;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.container
+{
+    width: 90%;
+    margin: auto;
+    border: black;
+}
+
+.nav-main
+{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px 0;
+}
+
+.nav-brand
+{
+    width: 150px;
+}
+
+.nav-main ul
+{
+    display: flex;
+    padding-top: 45px;
+}
+.nav-main ul li
+{
+    padding: 40px;
+}
+
+.nav-main ul li a
+{
+    padding: 6px;
+}
+
+.nav-main ul li a:hover
+{
+    border-bottom: 2px solid white;
+}
+
+.nav-main ul.nav-menu
+{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn{
+    color: black;
+    position: absolute;
+    cursor: pointer;
+    top: 40px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
+hr{
+    color: black;
+    margin: 10px 0;
+}
+
+.showcase{
+    width: 100%;
+    color: white;
+    height: 550px;
+    background: linear-gradient( rgba(145, 145, 145, 0.3), rgba(145, 145, 145, 0.3)), url("img/decoraciones.jpg") no-repeat top center/cover; 
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+}
+
+
+.mensaje p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.servicios img{
+    width: 100%;
+    height: 180px;
+}
+
+.servicios h3,
+.servicios p{
+    color: black;
+}
+
+.social p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a i{
+    font-size: 3rem;
+}
+
+.library img{
+    margin-top: 50px;
+    height: 180px;
+}
+
+.contenedorCanvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opcionesFoto{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+
+@media (max-width: 700px) {
+
+    .menu-btn{
+        display: block;
+    }
+
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background:  rgba(145, 145, 145);
+        height: 100%;
+        padding: 30px;
+        transform: translate(-400px);
+        transition: transform .5 ease-in-out;
+    }
+
+    .servicios img{
+        height: 200px;
+    }
+
+    .nav-main ul.nav-menu.show{
+        transform: translate(-20px);
+    }
+
+    .nav-main ul.nav-menu-right{
+        margin-right: 40px;
+    }
+
+
+    .nav-main ul.nav-menu{
+        padding: 20px;
+        font-size: 14;
+    }
+
+    .servicios{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .showcase{
+        justify-content: flex-end;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .servicios{
+        grid-template-columns: 1fr;
+    }
+
+    .servicios img{
+        height: 270px;
+    }
+}

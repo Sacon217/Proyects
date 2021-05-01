@@ -1,0 +1,1629 @@
+﻿
+.GreenStyle {
+    background-color: #A9E590;
+}
+
+.RedStyle {
+    background-color: #F28865;
+}
+
+.YellowStyle {
+    background-color: #F0F586;
+}
+
+.mensajeVerdeGeneral {
+    border: 1px solid Green;
+    background-color: #A9F5A9;
+    font-size: 12px;
+    font-family: Arial;
+    padding: 10px;
+    background-color: #A9E590;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.frameCenter {
+    border: 0px;
+    outline: none;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.frameLeft, .frameRight {
+    border: 1px solid gray;
+    outline: none;
+    width: 242px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background-color: #EFEFEF;
+}
+
+.tblSimbologia {
+    border-right: 1px solid Gray;
+    border-left: 1px solid Gray;
+    border-top: 1px solid Gray;
+}
+
+    .tblSimbologia td, .tblSimbologia th {
+        border-bottom: 1px solid Gray;
+        padding: 5px;
+        text-align: center;
+    }
+
+.tblContenedor {
+    width: 100%;
+    margin: 0px;
+    padding: 2px;
+    font-family: Arial;
+}
+
+.CRAIClass {
+    border: 1px solid Gray;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+    .CRAIClass th {
+        padding: 5px;
+        background-color: Green;
+        color: White;
+        text-align: center;
+        font-family: Arial;
+        font-size: 12px;
+    }
+
+.aspCheckBox {
+    padding: 3px;
+}
+
+    .aspCheckBox label {
+        padding-left: 3px;
+    }
+
+.CRAIClass .rowAlternativeClass {
+    background-color: #E5E5E5;
+}
+
+.CRAIClass td {
+    padding: 7px;
+    border-bottom: 1px solid Gray;
+}
+
+.busquedaCrai {
+    text-align: center;
+    width: 100%;
+    margin: 7px;
+}
+
+.CRAIClass .tdCenter {
+    text-align: center;
+}
+
+.headerAlternativo {
+    background-image: url("../Images/Header_Logo_Login.jpg");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*border-bottom:40px solid #36B449;*/
+    margin-bottom: 60px;
+    /*  border-top: 5px solid #36B449;*/
+}
+
+.divDesktopLogin {
+    background-color: #EFEFEF;
+    width: 100%;
+}
+
+.txtLogin {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.divDesktopLogin .contenedor {
+    border: 0px;
+}
+
+
+
+.headerLinks {
+    background-image: url("../Images/btn_campus.png");
+    height: 100px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+    .headerLinks a {
+        border-width: 0px;
+        margin: 0px;
+        padding: 0px;
+        outline-width: 0px;
+        display: block;
+        float: left;
+    }
+
+    .headerLinks img {
+        border-width: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+.LineaMenu {
+    height: 5px;
+    background-color: Green;
+}
+
+.content-wrapper, .divMessageInfo, .divMessageError, .divMessageWarning {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+#imgLogo {
+    width: 100px;
+}
+
+#tableUsuario {
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid Gray;
+    margin: 1px;
+    font-family: arial;
+    font-size: 12px;
+    padding: 2px;
+    outline: none;
+}
+
+
+.input[type="button"]:active, input[type="submit"]:active {
+    position: relative;
+    top: 1px;
+}
+
+
+input[readonly="readonly"], textarea[readonly] {
+    background-color: #E6E6E6;
+}
+
+.portalDocenteHeader {
+    background-color: Green;
+    color: White;
+    padding: 2px;
+    height: 27px;
+}
+
+.btnPortalDocenteLnk {
+    background-color: transparent;
+    cursor: pointer;
+    color: White;
+    padding: 5px;
+    border: 0px;
+}
+
+.btnPortalDocenteLnkSelected {
+    background-color: #F8F8F8;
+    padding: 5px;
+    color: Green;
+    font-weight: 900;
+    cursor: pointer;
+    border: 0px;
+}
+
+.btnPortalDocenteLnk:hover {
+    background-color: #F8F8F8;
+    padding: 5px;
+    color: Green;
+    cursor: pointer;
+    border: 0px;
+}
+
+
+
+.labelGeneral {
+    font-weight: 900;
+    color: #6E6969;
+}
+
+.linkTamano {
+    background-color: Black;
+    width: 90px;
+    height: 100px;
+}
+
+
+
+.divUsuarioLogueado {
+    text-align: right;
+    padding: 5px;
+    padding-right: 0px;
+}
+
+    .divUsuarioLogueado span {
+        color: Black;
+        font-weight: 900;
+        padding: 0px;
+    }
+
+.divCerrarSesion {
+    text-align: right;
+    font-weight: 900;
+}
+
+    .divCerrarSesion a {
+        color: Green;
+        text-decoration: none;
+        font-family: Arial;
+        font-size: 12px;
+    }
+
+    .divCerrarSesion input {
+        color: Green;
+        background: none !important;
+        border: none;
+        padding: 0px !important;
+        margin: 0px;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: Arial;
+        font-size: 12px;
+        width: 95px;
+        font-weight: 900;
+    }
+
+    .divCerrarSesion a:visited {
+        color: Green;
+    }
+
+.menuLateral {
+    border-collapse: separate;
+    border-spacing: 10px 50px;
+}
+
+.menuLateralEncabezado {
+    cursor: pointer;
+}
+
+.menuLateralEstiloNormalItem {
+    border: #BFBEBE 1px solid;
+    background-color: #EFEFEF;
+}
+
+.menuLateralEstiloNormalItemHover {
+    background-color: #FBFBFB;
+    border: #BFBEBE 1px solid;
+}
+
+.menuLateralEstiloNormalSubItem {
+    border-left: #BFBEBE 1px solid;
+    border-right: #BFBEBE 1px solid;
+    border-bottom: #BFBEBE 6px solid;
+    background-color: #f7f8f9;
+    color: #219A2D;
+}
+
+    .menuLateralEstiloNormalSubItem div {
+        font-size: 11px;
+        /* border-bottom: #BFBEBE 1px solid; */
+        font-family: Arial;
+        padding: 3px;
+    }
+
+    .menuLateralEstiloNormalSubItem td {
+        height: 25px;
+    }
+
+        .menuLateralEstiloNormalSubItem td table {
+            display: table-cell;
+        }
+
+        .menuLateralEstiloNormalSubItem td:hover {
+            background-color: #F1F1F1;
+            border: 0px;
+        }
+
+.contenedorMenuLateral {
+    width: 100%;
+    color: #595858;
+    font-weight: 900;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+    .contenedorMenuLateral table {
+        margin-bottom: 20px;
+    }
+
+.MenuLateralSubItemSelected div {
+    color: #595858;
+}
+
+.estiloUbicacion {
+    padding: 0px;
+    text-align: left;
+    border-bottom: 2px solid #219A2D;
+}
+
+    .estiloUbicacion .style3 {
+        width: 100%;
+    }
+
+    .estiloUbicacion .style8 {
+        font-weight: 900;
+        font-size: 12px;
+        color: #219A2D;
+        font-family: Arial;
+    }
+
+    .estiloUbicacion .style4 {
+        font-size: 11px;
+        font-family: Arial;
+        color: #595858;
+        font-weight: normal;
+    }
+
+    .estiloUbicacion .style5 {
+        font-size: 11px;
+        font-family: Arial;
+        color: #595858;
+    }
+
+    .estiloUbicacion .style6 {
+        font-size: 11px;
+        font-family: Arial;
+        color: #595858;
+        font-weight: normal;
+    }
+
+    .estiloUbicacion .style7 {
+        font-size: 11px;
+        font-family: Arial;
+        color: #595858;
+        font-weight: normal;
+    }
+
+.contenedor {
+    border: 1px solid #BFBEBE;
+    font-family: Arial;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+    .contenedor a {
+        color: #5c71a2;
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: 900;
+        text-transform: capitalize;
+    }
+
+.eo_td_no_padding td {
+    font-weight: 900;
+}
+
+.contenedor .label {
+    color: #424242;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 900;
+    display: block;
+    padding-top: 3px;
+}
+
+.PestanasHoverMenu {
+    background-color: #F6F6F6;
+    border: 1px solid #DADADA;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.PestanasNormalMenu {
+    background-color: transparent;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+
+.PestanasSelectedMenu {
+    background-color: #20882B;
+    color: White;
+    border: 1px solid #20882B;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.PestanasMenuDisabled {
+    background-color: transparent;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    color: lightgrey;
+}
+
+.PestanasContenedor {
+    background-color: #EFEFEF;
+    border-bottom: #BFBEBE 1px solid;
+    border-left: #BFBEBE 1px solid;
+    border-right: #BFBEBE 1px solid;
+    font-family: Arial;
+    font-size: 12px;
+    color: #595858;
+}
+
+.PestanasSubMenu {
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.footerGeneral {
+    width: 100%;
+    background-color: #119540;
+}
+
+.copyrightStyle {
+    font-family: Arial;
+    font-size: 12px;
+    color: White;
+    text-align: center;
+    padding: 5px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    margin-top: 2px;
+    border-top-color: #219A2D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.socialLinks {
+    float: right;
+    margin-top: -35px;
+}
+
+    .socialLinks ul {
+        list-style-type: none;
+    }
+
+        .socialLinks ul li {
+            display: inline;
+            height: 40px;
+            width: 40px;
+        }
+
+            .socialLinks ul li img {
+                outline: none;
+                border: 0px;
+            }
+
+form fieldset {
+    background-color: White;
+    /*border-width:0px 0px 0px 2px;*/
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #BDBDBD;
+    font-family: Arial;
+    font-size: 11px;
+    margin: 2px 0px 12px 2px;
+    position: relative;
+    display: block;
+    padding: 0px 10px 10px 10px;
+}
+
+    form fieldset legend {
+        border-width: 0px 0px 7px 0px;
+        font-size: 12px;
+        /*border-width:0px 0px 0px 0px;*/
+        border-color: Green;
+        border-style: solid;
+        border-top-color: #424242;
+        border-bottom-color: #424242;
+        color: #424242;
+        font-weight: bold;
+        text-align: left;
+        width: 100%;
+        padding: 3px 5px;
+        margin: 0px 0px 10px -5px;
+        position: relative;
+        /*top: -14px;*/
+    }
+
+        form fieldset legend img {
+            padding: 0px 5px 0px 5px;
+        }
+
+.HeaderStyle th {
+    background-color: Green;
+    border-color: #424242;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.GridViewStyle td {
+    font-family: Arial;
+    border-color: Gray;
+}
+
+.RowStyle {
+    font-family: Arial;
+    border-color: Gray;
+}
+
+.PagerStyle td {
+    background-color: Green;
+    padding: 0px;
+}
+
+.PagerStyle tr {
+    padding: 0px;
+}
+
+.PagerStyle a {
+    border: 0px;
+    text-decoration: underline;
+    padding: 0px;
+}
+
+.PagerStyle span {
+    padding: 0px;
+}
+
+#capaPopUp {
+    background-color: #000; /* Le damos la el color de la opacidad. */
+    opacity: 0.65; /* Este valor mostrará la intensidad de la opacidad. */
+    position: absolute; /* La posición tendrá que ser absoluta. */
+    z-index: 9001; /* Esta propidad es para añadir la capa superpuesta al nivel 9001. */
+    top: 0; /* Para que posicione la capa al punto "0" del top de la página. */
+    left: 0; /* Para que posicione la capa al punto "0" a la izquieda de la página. */
+    width: 100%; /* El valor por defecto que tendrá que expandirse. */
+    height: 100%; /* El valor por defecto que tendrá que expandirse. */
+    display: none; /* Por defecto estará desactiva */
+}
+
+#popUpDiv {
+    position: absolute; /* La posición tendrá que ser absoluta. */
+    z-index: 9002; /* Esta propidad es para añadir la capa superpuesta al nivel 9002 (antes que la capa "capaPopUp"). */
+    overflow: auto; /* Esta propiedad la indicamos por si el contenido es más grande que la capa que por defecto salga el "scroll". */
+    left: 50%; /* Para posicionar horizontalmente la capa al centro de la página */
+    display: none; /* Por defecto estará desactiva */
+    top: 40%; /* Para posicionar verticalmente la capa al centro de la página */
+}
+/**************************************************************************
+ESTILOS PROPIOS DEL POPUP 200131011@ltm
+***************************************************************************/
+#capaContent {
+    display: block;
+    width: 400px; /* Necesario para que el script centre la capa horizontalmente en la página */
+    height: 230px; /* Necesario para que el script centre la capa verticalmente en la página */
+    background-color: #000;
+}
+
+.Head {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #666644;
+    width: 66%;
+}
+
+.wizardProgress {
+    padding-right: 10px;
+    font-family: Arial;
+    color: #333333;
+    font-size: 12px;
+}
+
+.SubHead {
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #1b964f;
+}
+
+
+
+.wizardProgress {
+    padding-right: 10px;
+    font-family: Arial;
+    color: #333333;
+    font-size: 1.2em;
+}
+
+.divCerrarSesion {
+    text-align: right;
+    font-weight: 900;
+}
+
+
+
+
+
+/*==========================================================*/
+/*          --- CORRECIONES  ----*/
+/*==========================================================*/
+
+body, html {
+    background-image: url('../Images/fondo.png');
+    height: 47px;
+    width: 1000px;
+    color: #333;
+    font-size: 0.85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.fondoGeneral {
+    background-color: #EFEFEF;
+    height: 100%;
+}
+
+
+form, #divOpciones {
+    height: 100%;
+    width: 100%;
+}
+
+.contenedorPagina {
+    background-color: White;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 5px solid #7d9286;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+input[type="button"], input[type="submit"], .gridOpcionView {
+    background-color: #8ca33c;
+    padding: 10px 20px;
+    border-radius: 1px;
+    -webkik-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border: none;
+    color: #fff;
+    cursor: pointer !important;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    border-bottom: 1px solid #595858;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+
+    input[type="button"]:hover, input[type="submit"]:hover, .gridOpcionView:hover {
+        background-color: #187c4c;
+    }
+
+.opcionActiva:hover {
+    background-color: #8cc63f !important;
+}
+
+.gridOpcionView {
+    display: block;
+    background-color: #22b573;
+    padding: 5px 10px 10px 5px;
+    border-radius: 1px;
+    -webkik-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    width: 100%;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gridOpcionView2 {
+    display: block;
+    background-color: #f15a24;
+    padding: 5px 10px 10px 5px;
+    border-radius: 1px;
+    -webkik-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    width: 100%;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .gridOpcionView input[type="radio"] {
+        visibility: hidden;
+    }
+
+    .gridOpcionView .listAdorno {
+        background-color: rgba(0,0,0,0.2);
+        width: 100%;
+        height: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+a:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+#TerminosCondiciones {
+    height: 350px;
+    overflow: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #EFEFEF;
+}
+
+.titulos {
+    background-color: #666666;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3)inset;
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.3)inset;
+    -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.3)inset;
+    color: white !important;
+    width: 95%;
+    font-size: 1.5em;
+}
+
+
+.subtitulos {
+    background-color: #666666;
+    margin: 0 auto;
+    padding: 8px 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+    color: #000;
+    width: 95%;
+    font-size: 1.2em;
+}
+
+#FeaturedContent_ucMatricula_lblTituloPlan {
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Para wizard */
+.stepNotCompleted {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: #666666;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+.stepCompleted {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: #FF4000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+.stepNotCompleted:hover {
+    background-color: #DF3A01;
+}
+
+.stepNotCompleted span, .stepCurrent span {
+    margin-left: 4px;
+}
+
+.stepCurrent {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: #DF3A01;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.stepBreak {
+    width: 3px;
+    background-color: Transparent;
+}
+
+#divResumenCarrito table {
+    width: 95%;
+}
+
+#divResumenCarrito {
+}
+
+#opcionesSuperiores {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#divSeleccioOpciones {
+    background-color: #EFEFEF;
+    padding: 20px 0px;
+    height: 100%;
+}
+
+#pnlCursos {
+    background-color: red;
+}
+
+select {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    border-radius: 3px;
+    -webkik-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 6px;
+    outline: none;
+    margin: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+
+
+hr {
+    border: 1px solid #666;
+    border-radius: 300px/10px;
+    height: 0px;
+    width: 100%;
+}
+
+#FeaturedContent_ucMatricula_btnActualizaPlan {
+    width: 85%;
+    margin-top: 15px;
+}
+
+.quaterHeader {
+    background-color: #666 !Important;
+    color: #fff;
+}
+
+    .quaterHeader td {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .quaterHeader td {
+        padding: 10px;
+    }
+
+.quaterTitle {
+    background-color: #efefef !Important;
+    height: 50px !important;
+    border:1px solid #efefef;
+}
+
+    .quaterTitle span {
+        background-color: #8cc63f !Important;
+        height: 30px;
+        color: #fff;
+        font-size: 1.1em;
+        display: block;
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+        margin-bottom: -20px;
+        line-height: 2.5;
+    }
+#divSelecciones {
+     background-color:#efefef;
+}
+
+.cursoViewTable {
+    border: 1px solid #fff;
+   
+}
+
+    .cursoViewTable tr {
+        background-color: #BFBEBE;
+        height: 35px;
+        transition: all .5s;
+    }
+
+
+        .cursoViewTable tr:hover {
+            background-color: rgba(0,0,0,0.5);
+        }
+
+
+#MatriculaHelper {
+    background-color: #424242;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/*==========================================================*/
+/*              --- CSS ESTADOS DE MATERIA  ----            */
+/*==========================================================*/
+
+
+#helpersOptions {
+    width: 97%;
+    padding-top: 8px;
+    margin: 0 auto;
+}
+
+    #helpersOptions div {
+        display: inline-block;
+        width: 16%;
+        margin: 0px;
+        padding: 5px 0px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+.cursoViewTable td:nth-child(5) span {
+       display: block;
+  
+  padding: 7px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#opt1, tr.row_aprobado td:nth-child(5) span, tr.row_convalidado td:nth-child(5) span, tr.row_cursoActual td:nth-child(5) span {
+    background-color: #fff;
+}
+
+#opt2, tr.row_levantamiento td:nth-child(5) span {
+    background-color: #f79c2f;
+}
+
+#opt3 {
+    background-color: #d9e021;
+}
+
+#opt4,tr.row_puedeMatricular td:nth-child(5) span {
+    background-color: #8cc63f;
+}
+
+#opt5, tr.row_prematriculado td:nth-child(5) span {
+    background-color: #22b573;
+}
+
+#opt6, tr.row_matriculado td:nth-child(5) span{
+    background-color: #00a99d;
+}
+
+
+#dialPrematr {
+    background-color: red;
+}
+
+
+#cerrarPopUp {
+    width: 30px;
+    padding: 5px;
+    background-color: #86c656;
+    height: 30px;
+    border-radius: 0px 30% 30% 0px;
+    -webkit-border-radius: 0px 30% 30% 0px;
+    -moz-border-radius: 0px 30% 30% 0px;
+}
+
+.tableHorarios, #FeaturedContent_ucMatricula_gvCarrito {
+    border-color: #f2f2f2;
+}
+
+    .tableHorarios .HeaderGrid, #FeaturedContent_ucMatricula_gvCarrito tr:first-child {
+        background-color: #86c656;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 5px;
+    }
+
+        .tableHorarios .HeaderGrid th, #FeaturedContent_ucMatricula_gvCarrito th {
+            padding: 5px;
+        }
+
+            .tableHorarios .HeaderGrid th:first-child, #FeaturedContent_ucMatricula_gvCarrito th:first-child {
+                border-radius: 5px 0px 0px 0px;
+            }
+
+            .tableHorarios .HeaderGrid th:last-child, #FeaturedContent_ucMatricula_gvCarrito th:last-child {
+                border-radius: 0px 5px 0px 0px;
+            }
+
+    .tableHorarios tr, #FeaturedContent_ucMatricula_gvCarrito tr {
+        background-color: #e6e6e6;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+
+#FeaturedContent_ucMatricula_dialPrematr {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+    background: #ffffff;
+    color: #333;
+    height: auto;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -520px;
+    overflow: auto;
+    padding: 16px;
+    z-index: 1002;
+}
+
+#divResumen {
+    float: right;
+    margin-top: 12px;
+}
+
+#FeaturedContent_ucMatricula_dtvResumen2 {
+    float: right;
+    margin-right: -45px;
+    margin-top: 15px;
+    height: 50px;
+    width: 200px;
+    border-collapse: collapse;
+    border-color: #f2f2f2;
+}
+
+    #FeaturedContent_ucMatricula_dtvResumen2 tr {
+        border-bottom: 1px solid #BFBEBE;
+    }
+
+#flowContainer {
+    position: absolute;
+    right: 29px;
+    top: 22px;
+}
+
+    #flowContainer input {
+        padding: 0 !important;
+        height: 25px;
+    }
+
+#detalleMatricula {
+    color: #fff;
+    width: 625px;
+    font-size: 1.1em;
+}
+
+.detalle {
+    margin: 2px 0px;
+    color: #fff;
+}
+
+#detalleSuperior {
+    background-color: #888;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+     height: 25px;
+}
+
+#detalleInterno {
+    height: 55px;
+}
+
+    #detalleInterno table {
+        width: 100%;
+        text-align:center;
+        border-collapse:collapse;
+    }
+
+
+#creditosDetalle, #creditosTitle, #creditosTitle {
+    background-color: #666;
+}
+#creditosTitle {
+    
+    height: 53px;
+}
+
+.detalleInternoContainer {
+    float: left;
+    width: 50%;
+    background-color: #666;
+}
+
+#tituloMatriculaDetalle {
+    font-size:1.8em;
+    font-weight:900;
+}
+
+
+.detalleInternoContainer:last-child div {
+  
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 55px;
+}
+
+#detalleInferior {
+    background-color: #8cc63f;
+    border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    height: 50px;
+}
+
+    #detalleInferior div {
+        float: left;
+        width: 25%;
+        line-height: 50px;
+        text-align: center;
+    }
+
+        #detalleInferior div:nth-child(1), #detalleInferior div:nth-child(3) {
+            font-size: 1.5em;
+        }
+
+        #detalleInferior div:nth-child(2), #detalleInferior div:nth-child(4) {
+            font-size: 1.2em;
+        }
+
+
+tr.EmptyRow {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 500;
+    background-color: tomato;
+}
+
+
+tr.EmptyRow td {
+  border-radius: 8px;
+}
+
+
+.opcionActiva {
+    background-color: #8cc63f;
+}
+        
+/*==========================================================*/
+/*                 ---  TOOLTIPS   ----                     */
+/*==========================================================*/
+
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+.tooltipster-default {
+    border-radius: 5px;
+    border: 2px solid #000;
+    background: #4c4c4c;
+    color: #fff;
+    cursor: default !important;
+}
+
+.tooltipster-shadow {
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.3);
+    color: #2c2c2c;
+}
+
+    .tooltipster-shadow .tooltipster-content {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 8px 10px;
+    }
+
+/* Use this next selector to style things like font-size and line-height: */
+.tooltipster-default .tooltipster-content {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 10px;
+    overflow: hidden;
+    cursor: default !important;
+}
+
+/* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+    /* border-color: ... !important; */
+}
+
+/* If you're using the icon option, use this next selector to style them */
+.tooltipster-icon {
+    cursor: help;
+    margin-left: 4px;
+}
+
+/* This is the base styling required to make all Tooltipsters work */
+.tooltipster-base {
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999999;
+    pointer-events: none;
+    width: auto;
+    overflow: visible;
+}
+
+    .tooltipster-base .tooltipster-content {
+        overflow: hidden;
+    }
+
+
+/* These next classes handle the styles for the little arrow attached to the tooltip. By default, the arrow will inherit the same colors and border as what is set on the main tooltip itself. */
+.tooltipster-arrow {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+    .tooltipster-arrow span, .tooltipster-arrow-border {
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+    }
+
+.tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+    border-top: 8px solid;
+    bottom: -7px;
+}
+
+.tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
+    border-left: 9px solid transparent !important;
+    border-right: 9px solid transparent !important;
+    border-top: 9px solid;
+    bottom: -7px;
+}
+
+.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+    border-bottom: 8px solid;
+    top: -7px;
+}
+
+.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+    border-left: 9px solid transparent !important;
+    border-right: 9px solid transparent !important;
+    border-bottom: 9px solid;
+    top: -7px;
+}
+
+.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
+    left: 6px;
+}
+
+.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+    left: 5px;
+}
+
+.tooltipster-arrow-top-right span, .tooltipster-arrow-bottom-right span {
+    right: 6px;
+}
+
+.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+    right: 5px;
+}
+
+.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
+    border-top: 8px solid transparent !important;
+    border-bottom: 8px solid transparent !important;
+    border-left: 8px solid;
+    top: 50%;
+    margin-top: -7px;
+    right: -7px;
+}
+
+.tooltipster-arrow-left .tooltipster-arrow-border {
+    border-top: 9px solid transparent !important;
+    border-bottom: 9px solid transparent !important;
+    border-left: 9px solid;
+    margin-top: -8px;
+}
+
+.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
+    border-top: 8px solid transparent !important;
+    border-bottom: 8px solid transparent !important;
+    border-right: 8px solid;
+    top: 50%;
+    margin-top: -7px;
+    left: -7px;
+}
+
+.tooltipster-arrow-right .tooltipster-arrow-border {
+    border-top: 9px solid transparent !important;
+    border-bottom: 9px solid transparent !important;
+    border-right: 9px solid;
+    margin-top: -8px;
+}
+
+
+/* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
+
+.tooltipster-fade {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.tooltipster-fade-show {
+    opacity: 1;
+}
+
+.tooltipster-grow {
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    transform: scale(0,0);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-backface-visibility: hidden;
+}
+
+.tooltipster-grow-show {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+
+.tooltipster-swing {
+    opacity: 0;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -o-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    transform: rotateZ(4deg);
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+}
+
+.tooltipster-swing-show {
+    opacity: 1;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -moz-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -ms-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -o-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+}
+
+.tooltipster-fall {
+    top: 0;
+    -webkit-transition-property: top;
+    -moz-transition-property: top;
+    -o-transition-property: top;
+    -ms-transition-property: top;
+    transition-property: top;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+
+    
+}
+
+.tooltipster-fall-show {
+}
+
+.tooltipster-fall.tooltipster-dying {
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -ms-transition-property: all;
+    transition-property: all;
+    top: 0px !important;
+    opacity: 0;
+}
+
+.tooltipster-slide {
+    left: -40px;
+    -webkit-transition-property: left;
+    -moz-transition-property: left;
+    -o-transition-property: left;
+    -ms-transition-property: left;
+    transition-property: left;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+
+    .tooltipster-slide.tooltipster-slide-show {
+    }
+
+    .tooltipster-slide.tooltipster-dying {
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        -ms-transition-property: all;
+        transition-property: all;
+        left: 0px !important;
+        opacity: 0;
+    }
+
+
+/* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
+.tooltipster-content-changing {
+    opacity: 0.5;
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+/* <JBR20181312> css para el cambio de carga automatica de certificaciones */
+
+.div-contenedor-docs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-botonera-docs {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    min-width: 45%;
+}
+
+.div-descripciones-docs {
+    margin: 5px;
+    min-width: 55%;
+}
+
+.div-contenedor-boton {
+    max-width: 100%;
+    min-width: 50%;
+    margin: 5px;
+}
+
+.boton-documento {
+    width: 100%;
+    white-space: normal !important;
+    font-size: small !important;
+}
+
+.panel-ocultado {
+    display: none;
+}
+
+.documentoSeleccionado {
+    background-color: #187c4c !important;
+}
+
+/* </JBR20181312> */
